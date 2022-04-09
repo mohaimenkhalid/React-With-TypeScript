@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
         <h1>Hello</h1>
-        <Greet name="Khalid" />
+        <Greet name="Khalid" messageCount={25} isLoggedIn={true} />
     </div>
   );
 }
